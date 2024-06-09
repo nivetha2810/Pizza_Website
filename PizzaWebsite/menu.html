@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i> pizza</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+            <h3 class="total">total: $56.97</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <!-- header section ends -->
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <!-- menu section starts -->
+
+    <section class="menu">
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Margherita pizza</h3>
+                                <p>Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there!.</p>
+                            </div>
+                            <div class="price">₹200</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Schezwan Margherita pizza</h3>
+                                <p>Your very own Margherita, now with a spicy twist! Loaded with our signature spicy schezwan sauce & 100% mozzarella cheese.</p>
+                            </div>
+                            <div class="price">₹189</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Makhni Paneer pizza</h3>
+                                <p>A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle.</p>
+                            </div>
+                            <div class="price">₹255</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>American Cheesy pizza</h3>
+                                <p>Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce.</p>
+                            </div>
+                            <div class="price">₹300</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Mexican feista pizza</h3>
+                                <p>Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce.</p>
+                            </div>
+                            <div class="price">₹199</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Corn and cheese pizza</h3>
+                                <p>A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful signature pan sauce.</p>
+                            </div>
+                            <div class="price">₹298</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Ravioli all'Italiana:</h3>
+                                <p>Mastering the Art of Italian Cuisine" takes you on a culinary journey through the heart of Italy. Discover the secrets behind crafting perfect pasta, from homemade noodles to rich, flavorful sauces. Elevate your cooking with authentic recipes and techniques that bring Italian traditions to your kitchen.</p>
+                            </div>
+                            <div class="price">₹189</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Fettuccine Alfredo</h3>
+                                <p>Creamy Comfort in Every Bite" celebrates the timeless dish of Fettuccine Alfredo. Indulge in tender pasta coated in a velvety sauce of butter, cream, and Parmesan cheese for a luxurious dining experience reminiscent of Italian trattorias.</p>
+                            </div>
+                            <div class="price">₹177</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Penae Arrabbiata</h3>
+                                <p>Spice Up Your Pasta Night" offers Penne Arrabbiata, a fiery pasta dish. Enjoy the zing of chili-infused tomato sauce tossed with al dente penne, creating a flavorful and exhilarating culinary experience.</p>
+                            </div>
+                            <div class="price">₹213</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Lasagna Bolognese</h3>
+                                <p>Layers of Richness and Tradition" celebrates the iconic dish with harmonious layers of pasta, Bolognese sauce, creamy béchamel, and gooey mozzarella, embodying Italian home cooking.</p>
+                            </div>
+                            <div class="price">₹250</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Spaghetti Aglio e Olio</h3>
+                                <p>A Simple Italian Classic" invites you to savor its timeless simplicity. Enjoy al dente spaghetti tossed in olive oil, garlic, and red pepper flakes for a flavorful meal reminiscent of Italian countryside kitchens.</p>
+                            </div>
+                            <div class="price">₹199</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>agliatelle ai Funghi</h3>
+                                <p>A Mushroom Lover's Delight" highlights Tagliatelle ai Funghi. Revel in the earthy flavors of this classic Italian dish, where ribbon-like tagliatelle pasta is tossed with a medley of sautéed mushrooms, garlic, and fresh herbs, creating a savory and aromatic masterpiece.</p>
+                            </div>
+                            <div class="price">₹204</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Berry Bliss</h3>
+                                <p>Heavenly Desserts with a Berry Twist" offers delectable treats like Strawberry Shortcake and Blueberry Cheesecake. Indulge in the sweetness of ripe berries enveloped in creamy layers for a taste of pure delight.</p>
+                            </div>
+                            <div class="price">₹179</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Summer Sorbet Delights</h3>
+                                <p>Cool and Refreshing Desserts" features favorites like Mango Sorbet and Raspberry Granita. Enjoy the vibrant flavors of fresh fruits transformed into icy treats, perfect for beating the summer heat with each spoonful.
+                                </p>
+                            </div>
+                            <div class="price">₹156</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Velvet Dreams</h3>
+                                <p>Luxurious Red Velvet Creations" features Red Velvet Cake and Red Velvet Cupcakes. Indulge in the decadence of moist, cocoa-infused cake layers, topped with smooth cream cheese frosting, for an irresistibly rich dessert experience.
+                                </p>
+                            </div>
+                            <div class="price">₹200</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>S'mores Sensation</h3>
+                                <p>Toasty Delights for Every Occasion" showcases S'mores Pie and S'mores Bars. Indulge in layers of graham cracker crust, gooey marshmallow, and rich chocolate, bringing the campfire classic to your dessert table with irresistible charm.</p>
+                            </div>
+                            <div class="price">₹210</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+
+    <!-- menu preview section starts -->
+
+    <section class="menu-preview-container">
+
+        <div id="close" class="fas fa-times"></div>
+
+        <div class="menu-preview" data-target="pizza">
+            <h3>pepproni pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p> Exploring the World of Savory Slices" celebrates classics like Margherita and Pepperoni. Delight in the perfect balance of crispy crust, gooey cheese, and flavorful toppings, transporting your taste buds to Italy with each savory bite.
+                </p>
+            <div class="price">₹309</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta">
+            <h3>Lasanga pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Exploring the World of Savory Delights" takes you on a culinary adventure through classics like Spaghetti Carbonara and Penne Arrabbiata. Delight in the perfect al dente texture of pasta, paired with rich sauces and aromatic herbs, transporting your taste buds to Italy with each forkful.</p>
+            <div class="price">₹250</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet">
+            <h3>sweet desserts</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Indulging in Sweet Delights" invites you to explore decadent treats like Chocolate Fudge Cake and Crème Brûlée. Savor each heavenly bite as velvety chocolate layers melt in your mouth, or delight in the crackle of caramelized sugar atop silky custard, creating moments of pure culinary bliss.</p>
+            <div class="price">₹123</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </section>
+
+    <!-- menu preview section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>123 Pizza Lane
+                    Foodie Town, Coimbatore, India</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+123-456-7890</p>
+                <a href="#" class="link">yourpizza@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>230 point of pines dr <br>
+                    coffee street
+                    Manhattan</p>
+            </div>
+
+        </div>
+        <div class="credit">created by <span>yourpizza</span> | all rights reserved!</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <!-- custom js link -->
+   <script src="script.js"></script>
+    
+</body>
+</html>
